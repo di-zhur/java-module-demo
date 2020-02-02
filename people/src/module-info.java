@@ -1,4 +1,3 @@
-import dog.Dog;
 
 module people {
     requires transitive car;
@@ -7,5 +6,5 @@ module people {
 
     exports example to app;
 
-    uses Dog;
+    uses dog.Dog;
 }
